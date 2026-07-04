@@ -1,0 +1,32 @@
+[project]
+name = "zaelix-ai"
+version = "1.0.0"
+description = "Intelligent inbox assistant with persistent memory for email prioritization, contextual understanding, and informed actions."
+readme = "README.md"
+requires-python = ">=3.11"
+
+license = "PolyForm-Noncommercial-1.0.0"
+
+authors = [
+    { name = "Omar Nahdi", email = "hello@omarnahdi.dev" }
+]
+
+dependencies = [
+    "agno==2.6.7",
+    "dotenv>=0.9.9",
+    "fastapi>=0.120.0",
+    "groq>=1.2.0",
+    "httpx>=0.25.2",
+    "mistralai==2.4.5",
+    "psycopg-binary>=3.2.12",
+    "psycopg2>=2.9.11",
+    "requests>=2.34.2",
+    "sqlalchemy>=2.0.44",
+    "uvicorn>=0.38.0",
+    "psycopg2-binary"
+]
+
+[project.urls]
+Homepage = "https://omarnahdi.dev/"
+Repository = "https://github.com/omarnahdi/zaelix-ai"
+Issues = "https://github.com/omarnahdi/zaelix-ai/issues"

@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+/tokens
+client_secret_*.apps.googleusercontent.com.json
+.env
+models-list.py
+/tmp
+/personal_token
+/work_token
+/creds
+creds_b64.txt
+personal_b64.txt
+work_b64.txt
+env.yaml
